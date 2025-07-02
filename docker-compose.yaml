@@ -19,7 +19,7 @@ services:
     stdin_open: true
     tty: true
 
-  parImpar:
+  parimpar:
     build: .
     command: com.controlStructs.ParImpar
     stdin_open: true

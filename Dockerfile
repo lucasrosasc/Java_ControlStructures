@@ -21,7 +21,7 @@ FROM amazoncorretto:24-headful
 WORKDIR /app
 
 # Copia APENAS o JAR final do estágio de build para a imagem final
-COPY --from=builder /app/target/Basic-1.0-SNAPSHOT-jar-with-dependencies.jar app.jar
+COPY --from=builder /app/target/ControlStructs-1.0-SNAPSHOT-jar-with-dependencies.jar app.jar
 
 # Define o ponto de entrada para executar a aplicação
 ENTRYPOINT ["java", "-cp", "app.jar"]
