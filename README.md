@@ -85,26 +85,6 @@ O comando `run` cria um container para o serviço, executa o programa Java e, gr
 > O parâmetro `--rm` é uma boa prática que remove o contêiner após sua execução, mantendo seu ambiente limpo.
 
 ---
-### Executando com Docker (Método Alternativo)
-
-Se preferir não usar o Docker Compose, você pode construir a imagem e executá-la manualmente.
-
-**1. Construa a imagem Docker:**
-```sh
-docker build -t basic-app .
-```
-
-**2. Execute o programa desejado:**
-
-Você precisa passar o nome completo da classe como um comando.
-
-```sh
-# Exemplo para a Calculadora de Tabuada
-docker run -it --rm basic-app br.com.basic.CalculadoraTabuada
-
-# Exemplo para o Input de Nome e Idade
-docker run -it --rm basic-app br.com.basic.InputNomeIdade
-```
 
 ## Testes
 
