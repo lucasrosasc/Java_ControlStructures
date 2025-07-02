@@ -1,7 +1,7 @@
 # Java Estruturas de Controle
 
 <p align="center">
- <img src="./pinguim_piramide.png" alt="Imagem de Pinguim no topo de pirâmide"/>
+ <img src="./loops_java.png" alt="Imagem de Pinguim no topo de pirâmide"/>
 </p>
 
 ![Java](https://img.shields.io/badge/Java-21-blue?logo=openjdk)
