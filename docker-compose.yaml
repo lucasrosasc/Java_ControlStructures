@@ -3,24 +3,28 @@ version: '3.8'
 services:
   tabuada:
     build: .
+    image: java-controle-tabuada:latest
     command: com.controlStructs.CalculadoraTabuada
     stdin_open: true
     tty: true
 
   imc:
     build: .
+    image: java-controle-imc:latest
     command: com.controlStructs.CalculoImc
     stdin_open: true
     tty: true
 
   multiplos:
     build: .
+    image: java-controle-multiplos:latest
     command: com.controlStructs.MultiplosN
     stdin_open: true
     tty: true
 
   parimpar:
     build: .
+    image: java-controle-parimpar:latest
     command: com.controlStructs.ParImpar
     stdin_open: true
     tty: true

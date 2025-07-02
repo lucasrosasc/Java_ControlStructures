@@ -117,7 +117,9 @@ O projeto está configurado com JUnit 5. Para rodar os testes unitários (se hou
 # No Linux ou macOS
 ./mvnw test
 ```
-## Project Structure
+## 📂 Estrutura do Projeto
+
+O projeto utiliza uma estrutura padrão do Maven, centralizando todo o código-fonte e facilitando a automação da compilação e execução com Docker.
 ```
 ├── .mvn/                   # Pasta do Maven Wrapper
 ├── src/
@@ -125,11 +127,11 @@ O projeto está configurado com JUnit 5. Para rodar os testes unitários (se hou
 │       └── java/
 │           └── br/
 │               └── com/
-│                   └── basic/
-│                       ├── CalculadoraTabuada.java # Um dos programas executáveis
-│                       ├── InputNomeIdade.java   # Outro programa executável
-│                       ├── Programa3.java        # Classe para futuras implementações
-│                       └── Programa4.java        # Classe para futuras implementações
+│                   └── controlStructs/
+│                       ├── CalculadoraTabuada.java
+│                       ├── CalculoImc.java
+│                       ├── MultiplosN.java
+│                       └── ParImpar.java
 ├── .dockerignore           # Arquivos a serem ignorados pelo Docker
 ├── .gitignore              # Arquivos a serem ignorados pelo Git
 ├── docker-compose.yml      # Arquivo de orquestração do Docker Compose
